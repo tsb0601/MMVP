@@ -1,7 +1,7 @@
 # Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs
 
-Shengbang Tong, Zhuang Liu, Yuexiang Zhai, Yi Ma, Yann LeCun, Saining Xie
-
+[Shengbang Tong](https://tsb0601.github.io/petertongsb/), [Zhuang Liu](https://liuzhuang13.github.io/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Yi Ma](https://people.eecs.berkeley.edu/~yima/), [Yann LeCun](https://yann.lecun.com/), [Saining Xie](https://www.sainingxie.com/)
+               
 ### [Paper]() | [Project Page](https://tsb0601.github.io/mmvp_blog/) | [MMVP Benchmark](https://huggingface.co/MMVP)
 
 
