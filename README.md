@@ -78,6 +78,13 @@ To evaluate on the MMVP, run
 ```
 python scripts/evaluate_mllm.py --directory PATH_TO_MMVP_BENCHMARK_FOLDER --model-path PATH_TO_MODEL_EVALUATED
 ```
+The script provide an evaluation for LLaVA based models that generate a jsonl file containing questions, correct answer and model response. Feel free to modify the script and apply on other models. 
+
+After generating model's response, one can manually check the accuracy or use a LLM (e.g. GPT-4) to generate the score. 
+```
+python scripts/gpt_grader.py --openai_api_key YOUR_OPENAI_API_KEY --answer_file PATH_TO_MODEL_RESPONSE_EVALUATED
+```
+
 Here is the result of *SOTA* models on MMVP Benchmark. It shows that these leading models consistently struggles with these straightforward questions on visual grouding, 
 ![MMVP](imgs/mllm_results.png)
 

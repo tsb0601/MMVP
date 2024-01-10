@@ -14,7 +14,7 @@ parser.add_argument('--answer_file', default = "answer.jsonl",help='Path to the 
 args = parser.parse_args()
 
 openai.api_key = args.openai_api_key
-
+NUM_SECONDS_TO_SLEEP = 10
 # Define a function to query the OpenAI API and evaluate the answer
 def get_yes_no_answer(question):
     while True:
