@@ -2,7 +2,7 @@
 
 [Shengbang Tong](https://tsb0601.github.io/petertongsb/), [Zhuang Liu](https://liuzhuang13.github.io/), [Yuexiang Zhai](https://yx-s-z.github.io/), [Yi Ma](https://people.eecs.berkeley.edu/~yima/), [Yann LeCun](https://yann.lecun.com/), [Saining Xie](https://www.sainingxie.com/)
                
-### [Paper]() | [Project Page](https://tsb0601.github.io/mmvp_blog/) | [MMVP Benchmark](https://huggingface.co/MMVP)
+### [Paper](https://arxiv.org/abs/2401.06209) | [Project Page](https://tsb0601.github.io/mmvp_blog/) | [MMVP Benchmark](https://huggingface.co/MMVP)
 
 
 ![Teaser](imgs/teaser.png)
