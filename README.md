@@ -123,7 +123,14 @@ This project is under the MIT license. See [LICENSE](LICENSE) for details.
 Please consider citing our paper if you find this project helpful for your research:
 
 ```bibtex
-
+@misc{tong2024eyes,
+      title={Eyes Wide Shut? Exploring the Visual Shortcomings of Multimodal LLMs}, 
+      author={Shengbang Tong and Zhuang Liu and Yuexiang Zhai and Yi Ma and Yann LeCun and Saining Xie},
+      year={2024},
+      eprint={2401.06209},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## Acknowledgement <a name="acknowledgement"></a>
