@@ -66,5 +66,5 @@ with open(args.answer_file, 'r') as file:
                 num_correct += 1
             round_correct = 0
 
-        num_total += 1
+            num_total += 1
 print(f"The accuracy is {num_correct/num_total}")
