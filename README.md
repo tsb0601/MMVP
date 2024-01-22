@@ -29,7 +29,7 @@ pip install flash-attn --no-build-isolation
 
 ### Pre-trained Model
 
-The Interleaved-MoF Models (Based on LLaVA-1.5 13b) will be made available very soon.
+The Interleaved-MoF Models (Based on LLaVA-1.5 13b) can be found [here](https://huggingface.co/MMVP/MoF_Models/tree/main).
 
 
 ## Benchmarks <a name="benchmark"></a>
