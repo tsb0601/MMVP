@@ -23,7 +23,8 @@
 ```
 conda create -n mmvp python=3.10 -y
 conda activate mmvp
-pip install -r requirements.txt
+cd LLaVA
+pip install -e .
 pip install flash-attn --no-build-isolation
 ```
 

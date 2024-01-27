@@ -23,13 +23,8 @@ class DINOVisionTower(nn.Module):
             self.cfg_only = CLIPVisionConfig.from_pretrained(self.vision_tower_name)
 
     def load_model(self):
-        print("I used DINO model!")
         self.image_processor = CLIPImageProcessor.from_pretrained(self.vision_tower_name)
 
-        #self.config = AutoConfig.from_pretrained('/home/simonzhai/.cache/huggingface/hub/models--facebook--dinov2-large/snapshots/cba6c51934b2e3f33842c4bcf922dc9e7b15083f')
-        
-        #self.vision_tower = AutoModel.from_pretrained('/home/simonzhai/.cache/huggingface/hub/models--facebook--dinov2-large/snapshots/cba6c51934b2e3f33842c4bcf922dc9e7b15083f', config=self.config)
-        
         self.clip_vision_tower = CLIPVisionModel.from_pretrained(self.vision_tower_name)
 
         self.vision_tower = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitl14')

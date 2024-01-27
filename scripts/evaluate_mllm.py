@@ -71,7 +71,7 @@ def eval_model(args):
 
         # Load the corresponding image
         photo_id = index+1
-        image_path = os.path.join(args.directory, 'MMVP Imgaes', f"{photo_id}.jpg")
+        image_path = os.path.join(args.directory, 'MMVP Images', f"{photo_id}.jpg")
         image = Image.open(image_path)
 
         input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).cuda()
